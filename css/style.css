@@ -1,0 +1,20 @@
+
+
+
+/* jumbotron styling */
+.jumbotron{
+    padding-top: 1px !important; /* decrease jumbotron height to minimum*/
+    padding-bottom: 1px !important;
+}
+
+/* Jumbotron avatar image */
+.card-img-top {
+    max-height: 64px; /* as per image dimensions*/
+    max-width: 64px;
+}
+/* Jumbotron text */
+#text-jumbotron{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
