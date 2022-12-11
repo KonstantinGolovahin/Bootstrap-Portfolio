@@ -10,26 +10,20 @@
     integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
   <!-- Custom CSS -->
   <link rel="stylesheet" href="css/style.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <meta name="viewport" content="width=device-width,  initial-scale=1.0">
+  <title>Konstantin Golovahin Bootstrap-Portfolio</title>
 </head>
 
-<body>
+<body >
 
   <!-- Navigation bar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-
-        <a class="nav-link" href="#">Work</a>
-        <a class="nav-link" href="#">Skills</a>
-        <a class="nav-link" href="#">About me</a>
-
+      <div class=" navbar-collapse" id="navbarNavAltMarkup">
+ <!-- move links to the right side -->
+      <div class="navbar-nav ml-auto">
+        <a class="nav-link" href="#section-work">Work</a>
+        <a class="nav-link" href="#section-skills">Skills</a>
+        <a class="nav-link" href="#section-about-me">About me</a>
       </div>
     </div>
   </nav>
@@ -38,23 +32,16 @@
   <!-- Hero section with a picture, name, short description -->
   <section class="jumbotron">
     <div class="container-fliud">
-      <div class="row">
-        <!-- Photo nad name in two separate columns, having a description at the bottom -->
-        <div col-sm-12 col-md-6 col-lg-6>
+      <div class="row ">
+        <!-- Photo and name in two separate columns, having a description at the bottom -->
+        <div >
           <img src="../Bootstrap-Portfolio/images/Avatar.png" class="card-img-top" alt="Avatar">
-
         </div>
-        <div col-sm-12 col-md-6 col-lg-6>
-          <h1 class="display-6">Konstantin Golovahin</h1>
-
+        <div>
+          <h1 id="text-jumbotron-name">Konstantin Golovahin</h1>
         </div>
       </div>
-
     </div>
-
-
-
-
     <p class="lead" id="text-jumbotron">Hi, my name is Konstantin. I am on my way to become a front-end developer. </p>
 
   </section>
@@ -62,64 +49,73 @@
 
   <!-- A section displaying your work in grid  + buttons to visit a project-->
 
-  <section class="container">
-    <div class="row">
+ <!-- d-flex flex-column + mt-auto keeps button at the bottom -->
+ <!-- mb-3 defines spaces betwwen cards in deck -->
+ <!-- col-sm-12 col-md-6 col-lg-6 defines layout for different screens -->
 
-      <div class="col-sm-12 col-md-6 col-lg-6">
-        <div class="card" style="width: 18rem;">
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
+
+  <section class="container-fliud w-100  " id="section-work">
+    <div class="row h-100 card-deck ">
+
+      <div class="col-sm-12 col-md-6 col-lg-6 mb-3">
+        <!-- d-flex flex-column + mt-auto keeps button at the bottom -->
+        <div class="card card-body d-flex flex-column h-100 card-img-style" id="card-img-prework" >
+          
+        
+            
+            <p class="card-text-desc"> Pre-work (CSS/HTML/Javascript)</p>
+            <a href="#" class="btn btn-primary mt-auto ">Visit site</a>
+          
         </div>
       </div>
 
-      <div class="col-sm-12 col-md-6 col-lg-6">
-        <div class="card" style="width: 18rem;">
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
+      <div class="col-sm-12 col-md-6 col-lg-6 mb-3">
+        <div class="card card-body d-flex flex-column h-100 card-img-style" id="card-img-horiseon" >
+          
+          
+          <p class="card-text-desc"> Challenge1 (CSS/HTML)</p>
+            <a href="#" class="btn btn-primary mt-auto">Visit site</a>
+          
         </div>
       </div>
 
 
-      <div class="col-sm-12 col-md-6 col-lg-6">
-        <div class="card" style="width: 18rem;">
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
+      <div class="col-sm-12 col-md-6 col-lg-6 mb-3">
+        <div class="card card-body d-flex flex-column h-100 card-img-style" id="card-img-portfolio" >
+          
+          
+          
+            <p class="card-text-desc">Challenge1 (CSS/HTML)      </p>
+            <a href="#" class="btn btn-primary mt-auto">Visit site</a>
+          
         </div>
       </div>
 
-      <div class="col-sm-12 col-md-6 col-lg-6">
-        <div class="card" style="width: 18rem;">
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+      <div class="col-sm-12 col-md-6 col-lg-6 mb-3">
+        <div class="card card-body d-flex flex-column h-100 card-img-style"  >
+          
+          
+           
+            <p class="card-text-desc">Some quick example text to build on the card title and make up the bulk of the card's
               content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
+            <a href="#" class="btn btn-primary mt-auto">Visit site</a>
+          
         </div>
+      </div>
+
       </div>
 
 
     </div>
   </section>
 
+
+
+  <div class="container-fluid">
+<div class="row">
+
   <!-- A skills section + An about/contact section. All in the same row -->
-  <section class="container-fluid">
+  <div class="container-fluid" id="section-skills">
     <div class="row">
       <!-- A skills card -->
       <div class="col-sm-12 col-md-6 col-lg-6">
@@ -127,7 +123,7 @@
           <div class="card-body">
             <h5 class="card-title">Card header</h5>
             <p class="card-text">Describe my skills</p>
-            <a href="#" class="btn btn-primary">Visit my Github</a>
+            <a href="#" class="btn btn-primary rounded">Visit my Github</a>
           </div>
         </div>
       </div>
@@ -135,7 +131,7 @@
 
 
       <!-- About me card -->
-      <div class="col-sm-12 col-md-6 col-lg-6">
+      <div class="col-sm-12 col-md-6 col-lg-6" id="section-about-me">
         <div class="card mb-3" style="max-width: 540px;">
           <div class="row no-gutters">
             <div class="col-md-4">
@@ -150,42 +146,25 @@
             </div>
           </div>
         </div>
+
       </div>
+    </div>
 
 
 
 
-
+    </div>
     </div>
   </section>
 
 
   <!-- A footer section with links.  -->
 
-  <footer class="container-fliud">
+  <footer class="container-fliud fixed-bottom">
     <div class="row">
       Footer section with links
     </div>
   </footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 </body>

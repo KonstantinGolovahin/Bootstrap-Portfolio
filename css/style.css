@@ -1,7 +1,29 @@
+                        /* Overall style */
+  html, body{
+    height:100%;
+    width:100%;
+    
+            }
+                  
+          
+
+
+                          
+/* Links hover effect (required by assigment) */
+a:hover {
+    color: red !important;
+    }
+
+ /* buttons shadow style (required by assigment)*/   
+ .btn {
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.5) !important;
+ }
 
 
 
-/* jumbotron styling */
+                    /*Section specific styles*/ 
+
+                         /* jumbotron styling */
 .jumbotron{
     padding-top: 1px !important; /* decrease jumbotron height to minimum*/
     padding-bottom: 1px !important;
@@ -17,4 +39,69 @@
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
 }
+
+#text-jumbotron-name{
+    text-align: left !important;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+                      /* work section */
+
+/* height of the section Work */
+#section-work{
+    height: 60vh;
+    width: 90%;
+    
+}
+
+/* overall card image style for work sectiom */
+.card-img-style {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+/* each card image */
+#card-img-prework{
+    background-image: url(../images/Prework\ Study\ Guide.png);
+    
+}
+
+#card-img-horiseon{
+    background-image: url(../images/Horiseon.png);
+    
+}
+
+#card-img-portfolio{
+    background-image: url(../images/portfolio_demo.png);
+}
+
+
+/* text on work  cards */
+.card-text-desc{
+    position: absolute;
+    top: 40%;
+    bottom: 20%;
+    left: 0%;
+    right: 70%;
+    display: flex;
+    align-items: center;
+    color: black;
+    background-color: lightblue;
+    font-size: 1vh;
+    font-weight: bolder;
+    overflow: hidden;
+    opacity: 80%;
+    
+}
+
+/* Link button */
+.btn {
+    width: 30% ;
+    align-self: center;
+
+}
+
 
