@@ -39,9 +39,11 @@ This homework is graded based on the following criteria:
 * Repository contains quality readme with description, screenshot, link to deployed application.
 
 ## Screenshot
+![Bootstrap portfolio](./images/Bootstrap-Portfolio.png?raw=true "Bootstrap portfolio")
 
 ## Link to deployed application
 
+https://konstantingolovahin.github.io/Bootstrap-Portfolio/
 
 ## Installation
 
