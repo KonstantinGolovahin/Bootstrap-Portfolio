@@ -100,9 +100,25 @@ a:hover {
 
 /* Link button style */
 .btn {
-    width: 20% !important;
-    align-self: center !important;
+    width: 20% ;
+    align-self: center ;
 
 }
 
+/* footer style */
+#footer-style {
+    background-color: black;
+}
+
+/* footer links */
+.link-footer a{
+    text-align: center;
+
+}
+  
+/* footer text */
+#text-footer{
+    color: white;
+    text-align: center;
+}
 
