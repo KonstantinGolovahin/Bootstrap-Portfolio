@@ -2,11 +2,15 @@
   html, body{
     height:100%;
     width:100%;
-    
+    background-color: lightgray;
             }
                   
           
-
+h5{
+    font-weight: bolder;
+    text-decoration: underline;
+    text-align: center;
+}
 
                           
 /* Links hover effect (required by assigment) */
@@ -14,7 +18,7 @@ a:hover {
     color: red !important;
     }
 
- /* buttons shadow style (required by assigment)*/   
+ /* buttons shadow style on hover (required by assigment)*/   
  .btn:hover {
     box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.5) !important;
  }
@@ -22,6 +26,29 @@ a:hover {
 
 
                     /*Section specific styles*/ 
+
+
+  /* navbar styling */
+.bg-light{
+    background-color: #98996b !important;
+}
+/* navbar links */
+.navbar-nav a {
+    color: white !important;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.navbar-nav a:hover {
+    color: red !important;
+    font-weight: bold;
+    
+}
+
+
+
+
+
 
                          /* jumbotron styling */
 .jumbotron{
@@ -52,7 +79,7 @@ a:hover {
 #section-work{
     height: 50vh;
     width: 90%;
-    background-color: lightgrey;
+    
     
 }
 
@@ -105,8 +132,39 @@ a:hover {
 
 }
 
+                               /* About me \ Sklills (combined on one row as a requirement)*/
+
+
+/* about me section */
+#img-avatar{
+    justify-content: center;
+    background-image: url("../images/Avatar.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* height of the section About me/skills */
+#section-skills{
+    height: 20vh;
+    width: 90%;
+    
+}
+
+/* Backgrounds */
+#section-skills-style{
+    background-color: bisque;
+}
+
+#section-about-me-style{
+    background-color:blanchedalmond;
+}
+
+
+                             /* Footer section */
+
+
 /* footer style */
-#footer-style {
+#section-footer {
     background-color: black;
 }
 
@@ -116,9 +174,15 @@ a:hover {
 
 }
   
+
+    
+    
+
+
 /* footer text */
 #text-footer{
     color: white;
     text-align: center;
 }
+
 
