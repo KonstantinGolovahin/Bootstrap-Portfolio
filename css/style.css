@@ -73,6 +73,8 @@ a:hover {
 }
 
 
+
+
                       /* work section */
 
 /* height of the section Work */
@@ -174,19 +176,34 @@ a:hover {
 
 /* footer links */
 .link-footer a{
-    text-align: center;
+    text-align: left;
 
 }
   
-
-    
-    
-
-
 /* footer text */
+.ul-links-text{
+    color: white;
+    
+}
+.ul-links-text:hover{
+    color: red;
+}
+
+
+
+
 #text-footer{
     color: white;
-    text-align: center;
+    
 }
+
+/* footer icons */
+.footer-img {
+    height: 25px;
+    width: 25px;
+    
+}
+
+
 
 

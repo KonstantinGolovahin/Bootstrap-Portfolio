@@ -33,11 +33,11 @@
 
 
   <!-- Hero section with a picture, name, short description -->
-  <section class="jumbotron">
-    <div class="container-fliud">
+  <section class="jumbotron  ">
+    <div class="container-fliud ">
       <div class="row ">
-        <div>
-          <img src="../Bootstrap-Portfolio/images/Avatar.png" class="card-img-top" alt="Avatar">
+        <div >
+          <img src="./images/Avatar.png" class="card-img-top" alt="Avatar">
         </div>
         <div>
           <h1 id="text-jumbotron-name">Konstantin Golovahin</h1>
@@ -61,7 +61,7 @@
 
       <div class="col-sm-12 col-md-6 col-lg-6 mb-3">
         <!-- d-flex flex-column + mt-auto keeps button at the bottom -->
-        <div class="card card-body d-flex flex-column h-100 card-img-style border-dark" id="card-img-prework">
+        <div class="card card-body d-flex flex-column h-100 card-img-style border-dark " id="card-img-prework">
 
 
 
@@ -108,11 +108,11 @@
   <!-- d-flex aligns non-similar cards -->
 
   <div class="container-fluid w-100 d-flex">
-    <div class="row h-100 card-deck">
+    <div class="row h-100 ">
       <!-- A skills card -->
-      <div class="col-sm-12 col-md-6 col-lg-6 d-flex" id="section-skills">
+      <div class="col-sm-6 col-md-6 col-lg-6 d-flex" id="section-skills">
         <div class="card border-dark" id="section-skills-style" style="width: auto;">
-          <div class="card-body d-flex flex-column">
+          <div class="card-body d-flex flex-column overflow-auto">
             <h5 class="card-title">Skills:</h5>
             <ul>
               <li>
@@ -140,16 +140,16 @@
 
 
       <!-- About me card -->
-      <div class="col-sm-12 col-md-6 col-lg-6 d-flex" id="section-about-me">
-        <div class="card h-100 mb-3 border-dark" id="section-about-me-style" style="width: auto;">
+      <div class="col-sm-6 col-md-6 col-lg-6 d-flex" id="section-about-me">
+        <div class="card h-100 border-dark " id="section-about-me-style" style="width: auto;">
           <div class="row no-gutters">
             <div class="col-md-2" id="img-avatar">
 
             </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">About me:</h5>
-                <p contenteditable spellcheck="true" class="card-text">I am on my way to become a front-end developer.
+            <div class="col-md-8 col-sm-6  ">
+              <div class="card-body  ">
+                <h5 class="card-title ">About me:</h5>
+                <p   contenteditable spellcheck="true" class="card-text ">I am on my way to become a front-end developer.
                   Currently I am participating in an intense boot camp course to learn skills required for a successful
                   progression.</p>
 
@@ -170,14 +170,16 @@
           <p id="text-footer">Contact me: </p>
         </div>
         <div class="col link-footer">
-          <a href="https://www.facebook.com/konstantin.golovahin">
-            <p class="ul-links-text">Facebook</p>
-          </a>
+          <a href="https://www.facebook.com/konstantin.golovahin"><img class="footer-img" src="./images/icon-facebook.png"></a>
+            <p class="ul-links-text"> Facebook</p>
+          
         </div>
         <div class="col link-footer">
-          <a href="https://github.com/KonstantinGolovahin?tab=repositories">
-            <p class="ul-links-text"> GitHub</p>
-          </a>
+          
+          <a  href="https://github.com/KonstantinGolovahin?tab=repositories"><img class="footer-img" src="./images/icon-github-white.png">
+          <p class="ul-links-text"> GitHub</p>
+        </a>
+          
         </div>
       </div>
     </footer>
