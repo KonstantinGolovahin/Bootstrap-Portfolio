@@ -1,10 +1,14 @@
                         /* Overall style */
-  html, body{
-    height:100%;
+ 
+ 
+    html, body{
+    min-height:100%;
     width:100%;
     background-color: lightgray;
-            }
-                  
+   
+    }
+
+    *{ border: 1px solid transparent; }   
           
 h5{
     font-weight: bolder;
@@ -79,8 +83,9 @@ a:hover {
 
 /* height of the section Work */
 #section-work{
-    height: 50vh;
+   height: 50vh;
     width: 90%;
+
     
     
 }
@@ -151,7 +156,8 @@ a:hover {
 
 /* height of the section About me/skills */
 #section-skills{
-    height: 20vh;
+    max-height: 20vh;
+    
     width: 90%;
     
 }
@@ -172,6 +178,8 @@ a:hover {
 /* footer style */
 #section-footer {
     background-color: black;
+   
+ 
 }
 
 /* footer links */
@@ -203,7 +211,7 @@ a:hover {
     width: 25px;
     
 }
-
-
-
-
+/* small margin for a footer */
+#section-footer{
+    margin-top: 5px;
+}

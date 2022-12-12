@@ -14,11 +14,11 @@
   <title>Konstantin Golovahin Bootstrap-Portfolio</title>
 </head>
 
-<body>
+<body >
 
   <!-- Navigation bar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class=" navbar-collapse" id="navbarNavAltMarkup">
+    <div class=" collapse navbar-collapse" id="navbarNavAltMarkup">
       <!-- move links to the right side -->
       <div class="navbar-nav ml-auto">
         <a class="nav-link" href="#section-work">Work</a>
@@ -107,12 +107,13 @@
   <!-- A skills section + An about/contact section. All in the same row -->
   <!-- d-flex aligns non-similar cards -->
 
-  <div class="container-fluid w-100 d-flex">
-    <div class="row h-100 ">
+  <section class="container-fluid w-100 d-flex" >
+    <div class="row" >
       <!-- A skills card -->
-      <div class="col-sm-6 col-md-6 col-lg-6 d-flex" id="section-skills">
-        <div class="card border-dark" id="section-skills-style" style="width: auto;">
+      <div class="col-sm-12 col-md-6 col-lg-6 d-flex" id="section-skills">
+        <div class="card border-dark" id="section-skills-style" style="width: auto">
           <div class="card-body d-flex flex-column overflow-auto">
+            
             <h5 class="card-title">Skills:</h5>
             <ul>
               <li>
@@ -140,16 +141,16 @@
 
 
       <!-- About me card -->
-      <div class="col-sm-6 col-md-6 col-lg-6 d-flex" id="section-about-me">
-        <div class="card h-100 border-dark " id="section-about-me-style" style="width: auto;">
+      <div class="col-sm-12 col-md-6 col-lg-6 d-flex" id="section-about-me">
+        <div class="card h-100 border-dark " id="section-about-me-style" style="width: auto">
           <div class="row no-gutters">
-            <div class="col-md-2" id="img-avatar">
+            <div class="col-md-2 " id="img-avatar">
 
             </div>
             <div class="col-md-8 col-sm-6  ">
               <div class="card-body  ">
                 <h5 class="card-title ">About me:</h5>
-                <p   contenteditable spellcheck="true" class="card-text ">I am on my way to become a front-end developer.
+                <p   contenteditable spellcheck="true" class="card-text  ">I am on my way to become a front-end developer.
                   Currently I am participating in an intense boot camp course to learn skills required for a successful
                   progression.</p>
 
@@ -158,15 +159,19 @@
           </div>
         </div>
       </div>
+
+
+
+
     </div>
     </section>
 
 
-    <!-- A footer section with links. Fixed at the bottom -->
+    <!-- A footer section with links.  -->
 
-    <footer class="container-fliud fixed-bottom " id="section-footer">
-      <div class="row">
-        <div class="col">
+    <footer class="container-fliud" id="section-footer">
+      <div class="row ">
+        <div class="col ">
           <p id="text-footer">Contact me: </p>
         </div>
         <div class="col link-footer">
